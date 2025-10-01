@@ -1,0 +1,36 @@
+.header-pane
+{
+    -fx-background-color: white;
+}
+
+.header-title 
+{
+    -fx-font-size: 24px;
+    -fx-text-fill: Black;
+    -fx-font-family: "Century Gothic";
+}
+
+.button 
+{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-font-size: 12px;
+    -fx-font-family: "Century Gothic";
+    -fx-border-style: solid;
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 1px;
+
+}
+
+.root
+{
+    -fx-background-color: rgb(255, 255, 255);
+}
+
+
+
+.label 
+{
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-font-size: 12px;
+    -fx-font-family: "Century Gothic";
+}
