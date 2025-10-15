@@ -68,7 +68,7 @@ public class cashRegister
 
                     else
                     {
-                        this.cashOnHand = this.cashOnHand + total - change;
+                        this.cashOnHand = this.cashOnHand + amountPaid - change;
 
                         JOptionPane.showMessageDialog(null, "You Paid: " + amountPaid + "\nHere's your change: " + change + " cents.");
                         return 1; 
@@ -85,3 +85,4 @@ public class cashRegister
         }
     }
 }
+
