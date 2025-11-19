@@ -84,5 +84,10 @@ public class cashRegister
             }
         }
     }
+
+    public int getCashOnHand()
+    {
+        return this.cashOnHand;
+    }   
 }
 
